@@ -5,8 +5,15 @@
 ```shell
 sudo apt install python3-pip # Caso nao possua o pip instalado na maquina
 pip install matplotlib
+pip install scipy
 ```
 -------------------------------
+### Para dedinir o tamanho da amostra:
+```shell
+python3 ./n-population.py
+```
+para um exemplo utilizaremos o tamanho da populacao em 3600 capturas de imagens
+
 
 ### Seleciona Amostras de Imagens
 ```shell
