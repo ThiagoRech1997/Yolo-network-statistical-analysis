@@ -9,10 +9,19 @@ pip install scipy
 ```
 -------------------------------
 ### Para dedinir o tamanho da amostra:
+
 ```shell
 python3 ./n-population.py
 ```
-para um exemplo utilizaremos o tamanho da populacao em 3600 capturas de imagens
+
+para um exemplo utilizaremos o tamanho da populacao em 3600 capturas de imagens com um grau de confianca de 98% e necessario calcular o desvio padrao e a margem de erro
+
+```python
+    # Solicitar os dados necessários
+    desvio_padrao = float(input("Informe o desvio-padrão populacional (σ): "))
+    margem_erro = float(input("Informe a margem de erro (E): "))
+    grau_confianca = float(input("Informe o grau de confiança (em porcentagem): "))
+```
 
 
 ### Seleciona Amostras de Imagens
