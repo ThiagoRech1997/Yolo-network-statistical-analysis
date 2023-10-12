@@ -23,6 +23,8 @@ def visualize_class_frequency(class_frequencies):
     class_labels = list(class_frequencies.keys())
     frequencies = list(class_frequencies.values())
 
+    print(frequencies)
+
     plt.bar(class_labels, frequencies)
     plt.xlabel('Classe')
     plt.ylabel('Frequência')

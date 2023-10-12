@@ -57,7 +57,7 @@ def process_directory(directory_path, output_file, classes_file):
 
 
 # Exemplo de uso
-directory_path = 'bboxes_yolo_exemple'
+directory_path = './destino_exemple/hamilton/'
 output_file = 'anotacoes.csv'
 classes_file = 'classes.txt'
 process_directory(directory_path, output_file, classes_file)
